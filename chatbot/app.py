@@ -17,7 +17,7 @@ os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 prompt = ChatPromptTemplate.from_messages(
     [
         ("system", "You are a helpful assistant.Please respond to the user queries queries."),
-        ("user", "Question: {question}"),   
+        ("user", "Question: {topic}"),   
     ]
 )
 

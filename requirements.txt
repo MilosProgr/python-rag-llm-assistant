@@ -3,8 +3,8 @@ langchain_openai
 langchain_core
 langchain_community
 langchain-groq
-langserve
 
+langserve
 fastapi
 uvicorn
 sse_starlette
@@ -25,3 +25,4 @@ wikipedia
 arxiv
 langchainhub
 groq
+sse_starlette

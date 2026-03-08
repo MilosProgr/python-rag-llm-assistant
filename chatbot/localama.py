@@ -17,11 +17,11 @@ prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-t.title("Chatbot with Langchain and Streamlit")
+st.title("Chatbot with Langchain and Streamlit")
 input_text = st.text_input("Enter your question here:")
 
 #groq llm
-llm = Ollama(model="llama-3.1-8b-instant", temperature=0.7, max_tokens=150)
+llm = Ollama(model="gemma", temperature=0.7)
 output_parser = StrOutputParser()
 chain=prompt | llm | output_parser  
 
