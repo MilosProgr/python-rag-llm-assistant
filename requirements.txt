@@ -5,6 +5,8 @@ langchain_community
 langchain-groq
 langchain-text-splitters
 langchain-classic
+langchain-huggingface
+langhainhub
 langserve
 fastapi
 uvicorn
